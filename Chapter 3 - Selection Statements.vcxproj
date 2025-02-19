@@ -142,7 +142,9 @@
     <ClCompile Include="Lab_Exercise_8_Ad_1.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Lab_Exercise_8_Ad_2.c" />
+    <ClCompile Include="Lab_Exercise_8_Ad_2.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Lab_Exercise_8_Ad_3.c" />
     <ClCompile Include="Lab_Exercise_8_Ad_4.c" />
     <ClCompile Include="Lab_Exercise_8_Ad_5.c" />
